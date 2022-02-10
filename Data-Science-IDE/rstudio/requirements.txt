@@ -1,0 +1,46 @@
+# system libs
+pip
+cmake
+decorator
+dpkt
+pathlib
+pefile
+pycryptodome
+pyopenssl
+pyperclip
+requests
+rich
+
+# scientific stack
+numpy
+pandas
+biopandas
+scikit-learn
+joblib
+qiskit
+tensorflow
+keras
+bitcoin
+QuantLib
+
+# image processing
+dlib
+face-recognition
+opencv-python
+opencv-contrib-python
+imutils
+
+# audio processing
+ffmpeg
+audioread 
+librosa
+SpeechRecognition
+
+# visualizations
+matplotlib
+seaborn
+
+# Excel handling
+openpyxl
+xlsxwriter
+xlrd

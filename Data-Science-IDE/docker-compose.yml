@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  area51:
+    image: area51
+    environment:
+      PASSWORD: "change_this_to_an_secure_env_var" # user rstudio
+    container_name: area51
+    hostname: area51
+    restart: always
+    build: ./rstudio
+    ports:
+      - "8787:8787"
+    volumes:
+      - "./rstudio/persistent:/home/rstudio/persistent"
+
